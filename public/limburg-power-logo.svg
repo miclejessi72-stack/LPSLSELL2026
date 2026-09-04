@@ -1,0 +1,44 @@
+<svg viewBox="0 0 520 160" width="520" height="160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lpRedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#8d1520" />
+      <stop offset="50%" stopColor="#a31d2a" />
+      <stop offset="100%" stopColor="#921722" />
+    </linearGradient>
+  </defs>
+
+  <rect x="3" y="3" width="514" height="154" rx="4" fill="none" stroke="#9e1b27" strokeWidth="6" />
+
+  <!-- LEFT EMBLEM -->
+  <g id="logo-emblem-left">
+    <rect x="6" y="6" width="160" height="148" fill="#09090b" />
+    <path d="M 68 18 L 42 54 L 42 98 L 112 98 C 134 98 144 86 144 70 C 144 54 132 44 114 44 L 92 44 L 80 60 L 108 60 C 118 60 124 64 124 70 C 124 76 118 80 108 80 L 62 80 L 62 60 L 82 32 Z" fill="#ffffff" />
+    <polygon points="60,110 104,110 82,142" fill="#ffffff" />
+  </g>
+
+  <!-- RIGHT TEXT -->
+  <g id="logo-text-right">
+    <rect x="166" y="6" width="348" height="74" fill="#ffffff" />
+    <g transform="translate(180, 58)">
+      <text font-family="system-ui, sans-serif" font-size="48" font-weight="800" letter-spacing="2.5" fill="#09090b">LIMB</text>
+      <g transform="translate(142, -37)">
+        <path d="M 0 0 L 12 0 L 12 24 C 12 34 18 38 27 38 C 36 38 42 34 42 24 L 42 0 L 54 0 L 54 24 C 54 42 42 48 27 48 C 12 48 0 42 0 24 Z" fill="#09090b" />
+        <polygon points="42,16 54,4 54,26" fill="#9e1b27" />
+      </g>
+      <text x="204" y="0" font-family="system-ui, sans-serif" font-size="48" font-weight="800" letter-spacing="2.5" fill="#09090b">RG</text>
+      <polygon points="288,-36 308,-36 308,-20" fill="#9e1b27" />
+    </g>
+
+    <rect x="166" y="78" width="348" height="4" fill="#9e1b27" />
+    <rect x="166" y="80" width="348" height="74" fill="url(#lpRedGrad)" />
+
+    <g transform="translate(182, 133)">
+      <text x="0" y="0" font-family="system-ui, sans-serif" font-size="44" font-weight="800" letter-spacing="3" fill="#ffffff">P</text>
+      <g transform="translate(76, -16)">
+        <circle cx="0" cy="0" r="19" fill="none" stroke="#ffffff" stroke-width="4" />
+        <path d="M 2 -13 L -9 0 L -1 0 L -3 13 L 9 -1 L 1 -1 Z" fill="#ffffff" />
+      </g>
+      <text x="116" y="0" font-family="system-ui, sans-serif" font-size="44" font-weight="800" letter-spacing="7" fill="#ffffff">WER</text>
+    </g>
+  </g>
+</svg>

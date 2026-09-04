@@ -1,0 +1,6 @@
+{
+  "name": "Limburg Power - CHP & Engine Spare Parts",
+  "description": "B2B online shop and spare parts platform for gas engines, CHP cogeneration plants, and decentralized power systems with user portal and admin management panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
